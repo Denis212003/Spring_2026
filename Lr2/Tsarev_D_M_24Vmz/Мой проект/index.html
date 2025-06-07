@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кулинарный блог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-utensils"></i> Кулинарный блог</h1>
+        
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="recipes"><i class="fas fa-book-open"></i> Рецепты</button>
+            <button class="tab-btn" data-tab="tips"><i class="fas fa-lightbulb"></i> Советы</button>
+        </div>
+
+        <div class="tab-content active" id="recipes">
+            <div class="recipe-card">
+                <h2>Спагетти Карбонара</h2>
+                <div class="recipe-meta">
+                    <span><i class="fas fa-clock"></i> 25 мин</span>
+                    <span><i class="fas fa-user-friends"></i> 2 порции</span>
+                    <span><i class="fas fa-signal"></i> Средняя сложность</span>
+                </div>
+                <img src="https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Спагетти Карбонара">
+                <h3>Ингредиенты:</h3>
+                <ul>
+                    <li>Спагетти - 200 г</li>
+                    <li>Бекон - 150 г</li>
+                    <li>Яйца - 2 шт</li>
+                    <li>Пармезан - 50 г</li>
+                    <li>Чеснок - 1 зубчик</li>
+                    <li>Соль, перец по вкусу</li>
+                </ul>
+                <h3>Приготовление:</h3>
+                <ol>
+                    <li>Отварите спагетти в подсоленной воде.</li>
+                    <li>Обжарьте бекон с чесноком до хрустящей корочки.</li>
+                    <li>Взбейте яйца с тертым пармезаном.</li>
+                    <li>Смешайте все ингредиенты, быстро помешивая.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tips">
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon"><i class="fas fa-knife-kitchen"></i></div>
+                    <h3>Нарезка лука без слез</h3>
+                    <p>Перед нарезкой подержите лук 10 минут в холодной воде или работайте рядом с включенной вытяжкой.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon"><i class="fas fa-egg"></i></div>
+                    <h3>Проверка свежести яиц</h3>
+                    <p>Опустите яйцо в воду - свежее утонет, несвежее всплывет.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon"><i class="fas fa-cheese"></i></div>
+                    <h3>Хранение сыра</h3>
+                    <p>Храните сыр в пергаментной бумаге, а не в пленке, чтобы он "дышал".</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon"><i class="fas fa-apple-alt"></i></div>
+                    <h3>Созревание авокадо</h3>
+                    <p>Чтобы авокадо быстрее дозрел, положите его в бумажный пакет с бананом.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
